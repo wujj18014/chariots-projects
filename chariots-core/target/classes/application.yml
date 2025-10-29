@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev
+# 禁用 logback 的动态配置处理
+#logging:
+#  config: classpath:logback-spring.xml

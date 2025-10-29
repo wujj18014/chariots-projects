@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: DEMO
+  ai:
+    dashscope:
+      api-key: sk-fb388dac3db64746ba68826895610caf
+      chat:
+        options:
+          model: qwen-max
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
